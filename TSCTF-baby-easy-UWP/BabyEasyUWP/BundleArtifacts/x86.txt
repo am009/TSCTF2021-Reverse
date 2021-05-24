@@ -1,0 +1,2 @@
+MainPackage=C:\Users\warren\source\repos\BabyEasyUWP\Release\BabyEasyUWP\BabyEasyUWP_1.0.0.0_Win32.appx
+SymbolPackage=C:\Users\warren\source\repos\BabyEasyUWP\Release\Symbols\BabyEasyUWP_1.0.0.0_Win32.appxsym

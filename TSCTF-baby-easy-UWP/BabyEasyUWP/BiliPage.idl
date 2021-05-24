@@ -1,0 +1,9 @@
+namespace BabyEasyUWP
+{
+    [default_interface]
+    runtimeclass BiliPage : Windows.UI.Xaml.Controls.Page
+    {
+        BiliPage();
+        Int32 MyProperty;
+    }
+}

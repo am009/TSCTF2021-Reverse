@@ -1,0 +1,6 @@
+MainPackage=C:\Users\warren\source\repos\BabyEasyUWP\x64\Release\BabyEasyUWP\BabyEasyUWP_1.0.0.0_x64.appx
+SymbolPackage=C:\Users\warren\source\repos\BabyEasyUWP\x64\Release\Symbols\BabyEasyUWP_1.0.0.0_x64.appxsym
+ResourcePack=C:\Users\warren\source\repos\BabyEasyUWP\x64\Release\BabyEasyUWP\BabyEasyUWP_1.0.0.0_scale-100.appx
+ResourcePack=C:\Users\warren\source\repos\BabyEasyUWP\x64\Release\BabyEasyUWP\BabyEasyUWP_1.0.0.0_scale-125.appx
+ResourcePack=C:\Users\warren\source\repos\BabyEasyUWP\x64\Release\BabyEasyUWP\BabyEasyUWP_1.0.0.0_scale-150.appx
+ResourcePack=C:\Users\warren\source\repos\BabyEasyUWP\x64\Release\BabyEasyUWP\BabyEasyUWP_1.0.0.0_scale-400.appx
