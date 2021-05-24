@@ -40,11 +40,9 @@ visual2019中勾选 通用Windows平台开发
 
 设计目标：难点不在算法，而是对新UWP应用架构的学习。希望在界面里能加上一些有趣的元素。
 
-算法设计：异或加上简单的完全二叉树的数组表示通过中序遍历打乱顺序。（最近正好在学ACM😰）而且这两步解密的顺序可以交换，因为一个是异或单字节，一个是纯打乱顺序。
+算法设计：异或加上完全二叉树的数组表示通过中序遍历打乱顺序。而且这两步解密的顺序可以交换，因为一个是异或单字节，一个是纯打乱顺序。
 
  用户输入->循环异或上tsctf2021->打乱顺序->结果比较。
-
-题目已经开源：
 
 题目关键部分源码如下：
 
@@ -111,7 +109,7 @@ visual2019中勾选 通用Windows平台开发
 
 3. 调试App
 
-   procexp可以直接通过窗口找到进程，找到进程的PID然后直接attach即可。然后在`MainPage::inputButton_Click`函数下断点。
+   procexp可以直接通过窗口找到进程，找到进程的PID然后直接attach即可。然后在`MainPage::inputButton_Click`函数下断点。之后就和普通的windows程序调试类似。
 
    IDA调试会发现下载很大的文件，auto analysis也一直在分析库文件，不会停下来。首先attach前在Options - General里的Analysis Tab下的Analysis框里的Enable取消勾选，取消自动分析。然后Attach的时候在Download xxx bytes的窗口直接点取消。然后来到`MainPage::inputButton_Click`函数下断点即可。
 
@@ -194,6 +192,8 @@ visual2019中勾选 通用Windows平台开发
    # xored = xorer(randomized)
    # print(xored)
    ```
+   
+   解密得到flag的脚本在decrypt.py。
 
 
 

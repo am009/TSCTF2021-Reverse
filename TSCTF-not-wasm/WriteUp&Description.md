@@ -223,11 +223,11 @@ void get_subkey(unsigned char *key)
 }
 ```
 
-wasm-rt会初始化完整的内存空间，内存空间都是在堆上的。在C语言里`memory.data[addr]`的方式就可以直接访问了。
+wasm-rt会初始化完整的内存空间，内存空间都是在堆上的。在C语言里`memory.data[addr]`的方式就可以直接访问了。main函数也是这样交互的。
 
 部分函数对应关系：f2 - des_enc。sub_1880 - check。
 
-C语言解密脚本在Github上的`mydes-decrypt-writeup.c`。
+C语言解密得到flag的脚本在Github上的`mydes-decrypt-writeup.c`。
 
 本来想要另外减少一轮加密，但是发现出题失误，好像还是16轮加密。。。导致hint给的不对。。尴尬，明明最后打包前检查了挺久的。。但是这算是难度减小了吧，也好。
 

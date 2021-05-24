@@ -29,8 +29,6 @@ hint：yet-another-lua-ext：AES-NI解密如果出现问题，注意AESIMC指令
 
 ### 前言
 
-题目源码放在github上：
-
 推荐阅读《Programming in Lua》的Lua C API部分。
 
 本题主要考察的是AES硬件指令集，和lua解释器的C API。放题前想加上Link Time Optimization，真是优化得和源代码完全不一样了。想了想还是算了，不利于学习lua的C API。所以就留下了库函数的符号信息，只去掉了题目代码的符号信息。
